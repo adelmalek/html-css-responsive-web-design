@@ -396,15 +396,10 @@ MEDIA QUERIES
     }
 
     .features-section::after {
-        content: "";
+        content: url('img/setup-dots.png');
         position: absolute;
-        width: 134px;
-        height: 20em;
-        background: url('img/setup-dots.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-        right: 0;
-        top: -4em;
+        right: 0.2em;
+        top: 2em;
     }
 
     .features-section img {
