@@ -137,14 +137,10 @@ SECTION-FEATURES
 }
 
 .list-item::before {
-    content: "";
+    content: url('img/checked.png');
     position: absolute;
     left: -2em;
-    top: .3em;
-    width: 20px;
-    height: 20px;
-    background-image: url('img/check.svg');
-    background-size: contain;
+    top: .1em;
     margin-right: .5em;
 }
 
