@@ -219,6 +219,23 @@ iframe {
 
 
 /* --- 
+FOOTER 
+--- */
+
+.footer {
+    padding: 5em 2em;
+    line-height: 3em;
+}
+
+.footer-links a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: .2em;
+}
+
+
+/* --- 
 OPEN HAMBURGER MENU
 --- */
 
@@ -436,4 +453,21 @@ MEDIA QUERIES
     iframe {
         height: 100%;
     }
+
+    .footer {
+        margin: 5em 0 1em;
+        padding: 2em 0;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-links a {
+        border-bottom: none;
+    }
+
 }
