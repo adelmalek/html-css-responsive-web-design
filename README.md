@@ -2,4 +2,4 @@
 
 Using only HTML and CSS.
 
-https://geradele.github.io/html-css-responsive-web-design/
+Link: https://geradele.github.io/html-css-responsive-web-design/
